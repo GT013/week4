@@ -7,8 +7,11 @@ namespace Lab01
     {
         static void Main(string[] args)
         {
-            Console.Write("Hello");
-            
+            Console.WriteLine("Data type : int");
+            Console.WriteLine("Size :" + sizeof(int));
+            Console.WriteLine("Minimum Value :" + int.MinValue);
+            Console.WriteLine("Maximum Value :" + int.MaxValue);
+
         }
     }
 }
