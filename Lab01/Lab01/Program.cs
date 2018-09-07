@@ -7,8 +7,11 @@ namespace Lab01
     {
         static void Main(string[] args)
         {
-            Console.Write("Hello");
-            
+            string str;
+            Console.Write("Enter some characters.");
+            str = Console.ReadLine().ToString();
+            Console.WriteLine("You entered: " + str);
+
         }
     }
 }
