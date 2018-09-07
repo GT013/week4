@@ -7,8 +7,12 @@ namespace Lab01
     {
         static void Main(string[] args)
         {
-            Console.Write("Hello");
-            
+            int N;
+            Random random = new Random();
+            int randomNumber = random.Next(0,9);
+            Console.WriteLine("Enter Number :");
+            N = int.Parse(Console.ReadLine());
+            Console.WriteLine(randomNumber);
         }
     }
 }
