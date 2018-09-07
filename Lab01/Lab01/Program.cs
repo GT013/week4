@@ -11,7 +11,7 @@ namespace Lab01
             Console.Write("Please enter value 1 : ");
             int val1 = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine(val1);
-
+            
         }
     }
 }
