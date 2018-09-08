@@ -13,7 +13,7 @@ namespace Lab01
             const double mileTokm = 1.609344;
             Console.WriteLine("Light speed = {0} km Per second", lightSpeed * mileTokm);
 
-            const double SunToEarthDistance = 149600000d;  // miles,km
+            const double SunToEarthDistance = 93000000d;  // miles,km
             Console.WriteLine("SunToEarthDistance = {0} miles", SunToEarthDistance / mileTokm);
 
             double SunToEarthTimeOfLight = SunToEarthDistance / lightSpeed;  // miles
