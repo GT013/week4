@@ -7,8 +7,18 @@ namespace Lab01
     {
         static void Main(string[] args)
         {
-            Console.Write("Hello");
+            string n, s;
+            double id, gpa;
+            Console.Write("Name : ");
+            n = Console.ReadLine().ToString().ToUpper();
+            Console.Write("Last Name : ");
+            s = Console.ReadLine().ToString().ToUpper();
+            Console.Write("ID : ");
+            id = double.Parse(Console.ReadLine());
+            Console.Write("GPA : ");
+            gpa = double.Parse(Console.ReadLine());
             
+
         }
     }
 }
