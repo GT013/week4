@@ -7,17 +7,19 @@ namespace Lab01
     {
         static void Main(string[] args)
         {
-            for (float i = 0; i < Math.PI * 2.0F; i += 0.3F)
+            for (double i = Math.PI* -1.9F; i < Math.PI * 1.9F; i += 0.1F)
             {
                 Console.WriteLine("The sine of {0,10:F} = {1,-10:F6}" +
-                spaces(Math.Sin(i)) + "*", i, Math.Sin(i));
+                spaces(Math.Tan(i)) + "*", i, Math.Tan(i));
             }
         }
         private static string spaces(double val)
         {
+            if (val < 0) return ("");
             string SpaceString = new String(' ', ((int)(val * 10.0)) + 10);
             return SpaceString;
 
         }
+
     }
 }
