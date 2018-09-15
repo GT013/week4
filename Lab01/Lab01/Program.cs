@@ -17,12 +17,12 @@ namespace Lab01
                
                 Console.Write("\nPlease Distance KM = ");
                 dis = double.Parse(Console.ReadLine());
-                sum = dis * kmToau;
+                sum = dis * kmToau;      // แปลงเป็น A.U
                 Console.WriteLine("DistanceToSun = {0:F2} A.U", sum);
-                sunto = dis * kmTomile;
+                sunto = dis * kmTomile;    // หาระยะห่างจากดาวถึงดวงอาทิตย์เป็นหน่วย Mile
                 Console.WriteLine("DistanceMile = {0:F2} Mile", sunto);
-                lighttime = sunto / lightSpeed;
-                Console.WriteLine("LightSpeedTime = {0:F2} Minutes", lighttime / 60);
+                lighttime = sunto / lightSpeed;  // ระยะห่าง(ไมล์) * ความเร็วแสง (ไมล์ต่อวิ) = ระยะเวลาของแสงจากดาวถึงอาทิตย์ (ต่อวิ)
+                Console.WriteLine("LightSpeedTime = {0:F2} Minutes", lighttime / 60);// ระยะเวลาของแสงจากดาวถึงอาทิตย์(ต่อนาที)
 
                 k = Console.ReadKey().KeyChar;
             }
