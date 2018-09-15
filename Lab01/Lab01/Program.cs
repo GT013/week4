@@ -10,7 +10,7 @@ namespace Lab01
 
             for (float i = -8; i <= 8; i += 0.5F) //หาค่า 0.5
             {
-                Console.WriteLine(spaces(i * i) + "*");
+                Console.WriteLine("y = x^2 {0,10:F} = {1,-10:F6}" + (spaces(i * i) + "*"));
             }
         }
         private static string spaces(double val)
