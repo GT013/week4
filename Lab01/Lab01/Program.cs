@@ -9,8 +9,8 @@ namespace Lab01
         {
             for (float i = 0; i < Math.PI * 2.0F; i += 0.3F)
             {
-                Console.WriteLine("The Tan of {0,10:F} = {1,-10:F6}" +
-                spaces(Math.Tan(i)) + "*", i, Math.Tan(i));
+                Console.WriteLine("The Cos of {0,10:F} = {1,-10:F6}" +
+                spaces(Math.Cos(i)) + "*", i, Math.Cos(i));
             }
         }
         private static string spaces(double val)
